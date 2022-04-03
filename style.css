@@ -1,0 +1,100 @@
+h1{
+    color: white;
+    font-family: "Comic Sans MS";
+}
+
+.header h1{
+    background-image: url('pics/cutePuppy.jpeg');
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display : flex;
+    justify-content: center;
+    padding: 310px;
+    margin-left:225px;
+    margin-right:225px;
+}
+.intro{
+    
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 100px;
+}
+.interests{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.workingH{
+    margin-top: 100px;
+}
+.grid{
+    display : grid;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.socialM{
+
+    display: flex;
+    justify-content: flex-end;
+}
+p,h2,h3{
+    text-align: center;
+    font-family: "Comic sans ms";
+}
+body{
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: white;
+}
+h2,h3{
+    color: #606060;
+}
+.item img{
+    border : solid;
+    border-color: #1f39e5;
+    border-radius: 30px;
+}
+
+.menu a{
+    margin : 20px;
+    font-size: large;
+}
+.menu a:hover{
+    opacity :0.3;
+    background-color: #606060;
+    color: purple;
+}
+
+a:link{
+    color : #606060;
+}
+a:visited{
+    color: orangered;
+}
+.item{
+    margin-bottom: 30px;
+    position:relative;
+}
+.item p{
+    color:yellow;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.item:hover p{
+    opacity :1;
+}
+.item:hover img{
+    opacity: 0.5;
+}
+.ending{
+    margin-top: -100px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
